@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/src/Podcastr.Static/node_modules
+/src/Podcastr.Static/.pnp
+/src/Podcastr.Static/.pnp.js
+
+# testing
+/src/Podcastr.Static/coverage
+
+# next.js
+/src/Podcastr.Static/.next/
+/src/Podcastr.Static/out/
+
+# production
+/src/Podcastr.Static/build
+
+# misc
+/src/Podcastr.Static/.DS_Store
+/src/Podcastr.Static/*.pem
+
+# debug
+/src/Podcastr.Static/npm-debug.log*
+/src/Podcastr.Static/yarn-debug.log*
+/src/Podcastr.Static/yarn-error.log*
+
+# local env files
+/src/Podcastr.Static/.env.local
+/src/Podcastr.Static/.env.development.local
+/src/Podcastr.Static/.env.test.local
+/src/Podcastr.Static/.env.production.local
+
+# vercel
+/src/Podcastr.Static/.vercel
